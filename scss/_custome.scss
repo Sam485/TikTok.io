@@ -1,0 +1,32 @@
+
+//WHITE AND GRAY
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+//THEME COLOR
+
+$teal:#08D9D6;
+$black: #252A34;
+$pink:#FF2E63;
+$white: #EAEAEA;
+$red:red;
+$yellow: yellow;
+
+$primary:       $black;
+$secondary:     $pink;
+
+//DROPDOWN
+$dropdown-link-hover-bg:   none;
+
+
+//IMPORT BOOTSTRAP
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
