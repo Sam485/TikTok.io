@@ -11966,7 +11966,6 @@ a {
 }
 .intro .video-box a span i {
   font-size: 6rem;
-  color: #FF2E63;
 }
 
 .border-animation {
@@ -11975,7 +11974,7 @@ a {
   left: 0%;
   width: 6rem;
   height: 6rem;
-  border: 0.55rem solid #EAEAEA;
+  border: 0.55rem solid #252A34;
   border-radius: 50%;
   animation: pulse-border 1.5s linear infinite;
 }
