@@ -1,0 +1,32 @@
+@use '../custome' as *;
+@use '../components/mixins' as *;
+
+.footer{
+    .footer1{
+        padding: 2rem 0 1rem 0;
+        span{
+            white-space: nowrap;
+            @include media-breakpoint-down(lg){
+                justify-content: center;
+            }
+            i{
+                font-size: 3rem;
+            }
+        }
+        li{
+            color: $white;
+            list-style-type: none;
+
+            &:hover{
+                color: $red;
+                cursor: pointer;
+            }
+        }
+        h5{
+            color: $red;
+        }
+        .logo-icon i:hover{
+            color: $red;
+        }
+    }
+}

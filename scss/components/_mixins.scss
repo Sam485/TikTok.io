@@ -1,0 +1,15 @@
+@use '../custome' as *;
+
+@mixin gradient{
+    background: linear-gradient(to right,rgba($red,0.95),rgba($black,0.95));
+}
+
+@mixin absoluteCenter{
+    left: 50%;
+    top: 50%
+}
+
+@mixin transitionProperty{
+    transition-duration: 1000ms;
+    transition-property: all;
+}

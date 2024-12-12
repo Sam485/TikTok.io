@@ -1,0 +1,40 @@
+@use '../custome' as *;
+@use '../components/mixins' as *;
+
+.topic{
+    .card-box{
+        padding: 2rem 0;
+        margin-bottom: 10rem;
+        position: relative;
+        border-radius: 3rem;
+        .header{
+        
+
+            .icons{
+                padding: 1rem;
+                color: yellow;
+            }
+
+            .description{
+                font-size: 1rem;
+            }
+        }
+
+        .group-img{
+            position: absolute;
+            width: 8rem;
+            height: 8rem;
+            left: 38%;
+            top: 85%;
+            z-index: 1;
+            @include media-breakpoint-up(lg){
+                left: 44%;
+                top: 85%;
+            }
+        }
+
+
+    }
+
+}
+

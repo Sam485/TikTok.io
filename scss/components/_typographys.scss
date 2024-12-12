@@ -1,0 +1,29 @@
+@use '../custome' as *;
+
+.absoluteCenter{
+    top: 50%;
+    left: 50%;
+}
+
+.heading-line::before{
+    content: "";
+    width: 10rem;
+    height: 0.1rem;
+    display: block;
+    margin: 0 auto;
+    background-color: $pink;
+}
+.heading-line::after{
+    content: "";
+    width: 2rem;
+    padding-top: 0.5rem;
+    height: 0.2rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    background-color: $pink;
+}
+
+.gradient{
+    background: linear-gradient(to right,rgba($red,0.95),rgba($black,0.95));
+}
