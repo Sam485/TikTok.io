@@ -11919,6 +11919,22 @@ a {
   text-decoration: none;
 }
 
+.backto-top {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  right: 1.875rem;
+  bottom: 1.875rem;
+  z-index: 9999;
+}
+.backto-top i {
+  font-size: 1rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
 .menu {
   padding: 0.85rem;
   font-size: 1rem;
