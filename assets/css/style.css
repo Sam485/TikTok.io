@@ -12086,7 +12086,7 @@ a {
 }
 @media (max-width: 991.98px) {
   .showing .cards {
-    margin: 0.875rem 0;
+    margin: 0.875rem 0.875rem 0 0;
   }
 }
 .showing button {
