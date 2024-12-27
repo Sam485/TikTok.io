@@ -11919,6 +11919,11 @@ a {
   text-decoration: none;
 }
 
+.dropdown-menu {
+  overflow-y: scroll;
+  max-height: calc(90vh - 150px);
+}
+
 .backto-top {
   position: fixed;
   width: 3rem;
