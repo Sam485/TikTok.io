@@ -12231,7 +12231,10 @@ a {
 .footer .footer1 h5 {
   color: red;
 }
-.footer .footer1 .logo-icon i:hover {
+.footer .footer1 .logo-icon a {
+  color: #EAEAEA;
+}
+.footer .footer1 .logo-icon a:hover {
   color: red;
 }
 
