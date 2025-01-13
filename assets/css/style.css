@@ -12103,7 +12103,7 @@ a {
 }
 @media (max-width: 991.98px) {
   .showing .cards {
-    margin: 0.875rem 0.875rem 0 0;
+    margin: 0.875rem 0 0.875rem 0;
   }
 }
 .showing button {
@@ -12306,10 +12306,6 @@ body {
   -ms-transition: all 5s ease;
   -o-transition: all 5s ease;
   transition: all 0.5s ease;
-}
-
-.portfolio-item {
-  /*width:100%;*/
 }
 
 .portfolio-item .item {
